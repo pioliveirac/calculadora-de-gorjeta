@@ -18,7 +18,7 @@
     --sherpa-blue: #00474B;
     --beetle-green: #547878;
     --topaz: #26C2AE;
-
+    --regent-grey: #7F9D9F;
 
 
 }
@@ -56,6 +56,11 @@ main {
     margin-bottom: 3.2rem;
 }
 
+.people > strong {
+    margin-top: 3.2rem;
+
+
+}
 
 .input-box {
     background: var(--squeeze);
@@ -63,6 +68,8 @@ main {
     border-radius: .5rem;
     display: flex;
     align-items: center;
+    margin-bottom: 3.2rem;
+
 
         input {
             background: transparent;
@@ -138,3 +145,47 @@ main {
 
 }
 
+.results {
+    background: var(--sherpa-blue);
+    border-radius: 1.5rem;
+    padding: 4rem 2.4rem 2.4rem;
+
+    .amount,
+    .total {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.4rem;
+
+        p {
+            color: var(--white);
+            font-weight: 700;
+
+            span {
+                color: var(--regent-grey);
+                font-size: 1.3rem;
+            }
+        }
+
+        strong {
+            color: var(--topaz);
+        }
+    }
+
+
+    button {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background: var(--topaz);
+        color: var(--sherpa-blue);
+        border: none;
+        padding-block: .9rem;
+        border-radius: .5rem;
+    }
+
+
+
+}
